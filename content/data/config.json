@@ -21,6 +21,16 @@
                 "label": "GitHub",
                 "url": "https://github.com/minnak",
                 "altText": "minnak on GitHub"
+            },
+            {
+                "type": "Link",
+                "label": "Learn more",
+                "altText": "",
+                "url": "https://www.linkedin.com/in/minnakankaala/",
+                "showIcon": false,
+                "icon": "arrowRight",
+                "iconPosition": "right",
+                "elementId": ""
             }
         ],
         "contacts": {

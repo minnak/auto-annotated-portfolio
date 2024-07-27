@@ -15,9 +15,10 @@ sections:
     backgroundSize: full
     title: 'Hi! I''m Minna, a Software engineer with curiosity and a creative eye.'
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Frontend specialist, who excels at crafting intuitive, user-centered
+      designs that elevate digital experiences. By blending technical skill with
+      creative insight, I am committed to developing innovative and engaging web
+      solutions that not only meet but exceed user expectations.
     styles:
       self:
         height: auto

@@ -34,8 +34,8 @@
             "phoneAltText": "",
             "email": "minna@minnaworks.com",
             "emailAltText": "My email",
-            "address": "3131274-4",
-            "addressAltText": "My business id"
+            "address": "",
+            "addressAltText": ""
         },
         "copyrightText": "2024 © Minna Kankaala\n",
         "styles": {

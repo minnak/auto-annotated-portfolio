@@ -45,5 +45,6 @@
                 ]
             }
         }
-    }
+    },
+    "defaultSocialImage": "/images/featured-Image1.jpg"
 }

@@ -16,7 +16,7 @@ sections:
     title: 'Hi! I''m Minna, a Software engineer with curiosity and a creative eye.'
     subtitle: >-
       I am a front-end specialist who excels at crafting intuitive,
-      user-centered designs that elevate digital experiences. By blending
+      user-centered interfaces that elevate digital experiences. By blending
       technical skill with creative insight, I am committed to developing
       innovative and engaging web solutions.
     styles:

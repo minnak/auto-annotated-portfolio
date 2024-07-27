@@ -13,7 +13,7 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: I am an Software engineer with curiosity and a creative eye.
+    title: 'Hi! I''m Minna, a Software engineer with curiosity and a creative eye.'
     subtitle: >-
       This is my info—I’m sharing it all this with ya’ll to impress you with all
       the hard work I’ve done in the past few years. Once you’re impressed, you

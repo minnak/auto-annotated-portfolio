@@ -4,7 +4,7 @@ title: Minna Kankaala・Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
-  url: /images/bg1.jpg
+  url: /images/featured-Image1.jpg
   backgroundSize: cover
   backgroundPosition: center
   backgroundRepeat: no-repeat
@@ -99,4 +99,5 @@ sections:
         textAlign: center
       text:
         textAlign: center
+addTitleSuffix: false
 ---

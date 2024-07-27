@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Minna Kankaala・Home
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
@@ -13,13 +13,12 @@ sections:
   - elementId: ''
     colors: colors-f
     backgroundSize: full
-    title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+    title: 'Hi! I''m Minna, a Software engineer with curiosity and a creative eye.'
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      I am a front-end specialist who excels at crafting intuitive,
+      user-centered interfaces that elevate digital experiences. By blending
+      technical skill with creative insight, I am committed to developing
+      innovative and engaging web solutions.
     styles:
       self:
         height: auto
@@ -47,150 +46,57 @@ sections:
         justifyContent: flex-start
     type: HeroSection
     actions: []
-  - colors: colors-f
-    type: FeaturedProjectsSection
-    elementId: ''
-    actions:
-      - type: Link
-        label: See all projects
-        url: /projects
-    showDate: false
-    showDescription: true
-    showFeaturedImage: true
-    showReadMoreLink: true
-    variant: variant-b
-    projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-24
-          - pb-24
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
-    subtitle: 'Projects'
-  - type: FeaturedPostsSection
-    elementId: ''
-    colors: colors-f
-    variant: variant-d
-    subtitle: Featured Posts
-    showFeaturedImage: false
-    actions:
-      - type: Link
-        label: See all posts
-        url: /blog
-    posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-48
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
   - type: ContactSection
-    colors: colors-f
-    backgroundSize: full
-    title: "Got an interesting project? Tell me more...\U0001F4AC"
+    title: Contact Me
+    text: |
+      Got an interesting project? Tell me more...
     form:
       type: FormBlock
-      elementId: sign-up-form
+      title: Title of the form
       fields:
-        - name: firstName
-          label: First Name
+        - type: TextFormControl
+          name: name
+          label: Name
           hideLabel: true
-          placeholder: First Name
-          isRequired: true
+          placeholder: Your name
           width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
+          isRequired: 'true'
+        - type: EmailFormControl
+          name: email
+          label: Name
           hideLabel: true
-          placeholder: Last Name
-          isRequired: false
+          placeholder: Your email
           width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
+          isRequired: 'true'
+        - type: TextareaFormControl
+          name: message
+          label: Tell me about your project
           hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: 1/2
-          type: EmailFormControl
-        - name: address
-          label: Address
-          hideLabel: true
-          placeholder: Address
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve updates
-          isRequired: false
+          placeholder: Tell me about your project
           width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
+          isRequired: true
+      submitLabel: Send Message
+      elementId: contact-form
       styles:
         submitLabel:
-          textAlign: center
+          textAlign: left
+    colors: colors-f
+    backgroundSize: full
+    elementId: ''
     styles:
       self:
         height: auto
         width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
         padding:
-          - pt-24
-          - pb-24
-          - pr-4
+          - pt-28
+          - pb-36
           - pl-4
+          - pr-4
         alignItems: center
         justifyContent: center
         flexDirection: row
       title:
-        textAlign: left
+        textAlign: center
       text:
-        textAlign: left
+        textAlign: center
 ---

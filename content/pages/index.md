@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Home
+title: Minna Kankaala
 colors: colors-a
 backgroundImage:
   type: BackgroundImage

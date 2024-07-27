@@ -18,7 +18,7 @@ sections:
       I am a frontend specialist who excels at crafting intuitive, user-centered
       designs that elevate digital experiences. By blending technical skill with
       creative insight, I am committed to developing innovative and engaging web
-      solutions that not only meet but exceed user expectations.
+      solutions.
     styles:
       self:
         height: auto
